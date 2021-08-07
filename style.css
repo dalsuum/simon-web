@@ -1,0 +1,236 @@
+body {
+    background-image: linear-gradient(#63d0e6, #baff52 );
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    /* margin: 20px;
+    height: 20%; */
+    
+}
+.navigation a {
+    color: white;
+    float: left;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 20px 0px 20px;
+    border-style: none none solid none;
+    border-color:transparent;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.navigation li {
+    display: inline;
+    
+}
+
+.navigation a:hover {
+    
+    border-style: none none solid none;
+    border-color: lightskyblue;
+  }
+
+  
+
+
+/* ------------------------------ */
+.search {
+  
+    display: flex;
+    justify-content: center;
+        
+      
+}
+#search {
+    border-radius: 15px;
+    opacity: 80%;
+    box-shadow: inset 0 0 0.7em #63d0e6;
+   
+}
+
+.search_div {
+    height: 30%;
+    padding: 50px;
+}
+
+
+.header_text {
+   
+    text-align: center;
+    font-size: 18px; 
+}
+
+.header_text_dev {
+    height: 50%;
+
+   
+}
+
+/* .header_content img {
+    object-fit: cover;
+   opacity: 0.4;
+} */
+
+
+.header_content {
+    margin: 20px 20px 0px 20px;    
+    padding: 25px;
+    width: 100%;
+    height:max-content;
+   
+/*     
+    background-image: url("wallpaper.jpg"); */
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:scroll;
+
+    
+    color: floralwhite;
+    background-color:rgb(29, 0, 134);
+    border-radius: 20px 20px 0px 0px;
+
+    /* background: black; */
+    overflow: hidden;
+    /* background: #C33764;  */
+    
+    background-image: linear-gradient(rgba(0, 10, 95, 0.8),
+    rgba(68, 210, 245, 0.8)), url("wallpaper.JPG"); 
+    /*This photo was capture by me (dal cin suum) when i traveled to popa hills myanmar 2021*/
+}
+
+/* ------------------------------------ */
+.body_content {
+    margin: 0px 20px 20px 20px;   
+    padding: 20px 0px;
+    width: 100%;
+    height: max-content;
+    border-radius: 0px 0px 20px 20px;
+    background-color:ghostwhite;
+   
+}
+/* ---------------------------------- */
+.products {
+        height:max-content;
+        margin: 20px;
+        padding: 20px;
+        background-color: #e8e8e8;
+        box-shadow: 2px 2px 2px 2px rgba(43, 43, 77, 0.5);
+        border-radius: 10px;
+        
+}
+
+
+.products_icon {
+    box-shadow: inset -2px -2px 2px -2px rgba(43, 43, 77, 0.5);
+    border-radius: 10px;
+    height: min-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+}
+
+
+.products_icon:hover,
+.products_icon:visited {
+    box-shadow: inset 0 0 1em #63d0e6;
+    border-radius: 10px;
+    height: min-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+    
+.products_item {
+    margin: 10px 5px 10px 10px;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    float: left;    
+
+}
+
+.products img {
+   
+   width: 50px;
+   height: 50px;
+
+}
+
+.products_detail {
+    margin: 10px 10px 10px 5px;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    float: left;
+
+   
+}
+
+
+
+
+.products h2 {
+    margin: 10px;
+    padding: 20px;
+    border-style: none none solid none;
+    border-color: lightskyblue;
+}
+
+.products h2:hover,
+.products h2:visited
+{
+    color: lightblue;
+}
+
+
+/* --------------------------------- */
+
+.services {
+    height: max-content;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 2px 2px rgba(43, 43, 77, 0.5);
+    border-radius: 10px;
+   
+}
+
+.services h2 {
+    margin: 10px;
+    padding: 20px;
+    border-style: none none solid none;
+    border-color: lightskyblue;
+}
+.services h2:hover,
+.services h2:visited {
+    color: lightblue;
+}
+.services p {
+    margin: 50px;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    text-align: center;
+    margin: 20px;
+}
