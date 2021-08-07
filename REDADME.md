@@ -1,11 +1,17 @@
 #simon-web
 
-This is sample project for web template shadowing stye!
-This tamplate is not intended to use public 
+This is sample web template of shadowing stye!
+My first week challange of CSS and HTML usage.
+Background - Gradient 
+Main content 
+- Background-Image  
+- Shadowing box
+
+>This tamplate is not intended to use public.
 
 
 Instruction for User - 
-1.Download form github
+Download form github
 ```
 git pull https://github.com/dalsuum/simon-web.git
 ```
